@@ -102,7 +102,8 @@ body {
 
 .menu-gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     gap: 20px;
     padding: 20px 50px;
     max-width: 1200px;
@@ -119,16 +120,16 @@ body {
 
 .pict1  img {
     border: #2ecc71 2px solid;
-    width: 250px;
-    height: 500px;
+    width: 280px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
 .pict2  img {
     border: #2ecc71 2px solid;
-    width: 250px;
-    height: 500px;
+    width: 280px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -136,8 +137,8 @@ body {
 
 .pict3  img {
     border: #2ecc71 2px solid;
-    width: 250px;
-    height: 500px;
+    width: 280px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -145,8 +146,8 @@ body {
 
 .pict4  img {
     border: #2ecc71 2px solid;
-    width: 250px;
-    height: 500px;
+    width: 280px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -223,9 +224,16 @@ body {
     padding: 40px 80px;
     /* background-color: #fff; */
     border-radius: 10px;
-    margin: 85px 20px 60px 20px;
+    margin: 125px 20px 150px 20px;
     max-width: 1500px;
     gap: 40px;
+    height: 400px;
+}
+
+.maps iframe {
+    border: 2px solid #2ecc71;
+    border-radius: 10px;
+    width: 600px;
     height: 400px;
 }
 
