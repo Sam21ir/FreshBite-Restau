@@ -1,63 +1,137 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Restaurant Website Using HTML And CSS</title>
-		<meta name="viewport" content="width=device-width" />
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<div id="branding">
-					<h1><span class="highlight">Foodie's</span> Restaurant</h1>
-				</div>
-				<nav>
-					<ul>
-						<li class="current"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="menu.html">Menu</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+<head>
+    <meta charset="UTF-8" />
+    <title>FreshBite Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
 
-		<section id="showcase">
-			<div class="container">
-				<h1>Welcome to Foodie's Restaurant</h1>
-				<p>Experience the best culinary delights in town. Fresh ingredients, exquisite flavors, and a cozy atmosphere await you.</p>
+<body>
+    <header class="l-header">
+        <nav>
+            <div class="container">
+                <div>
+                    <h1><span class="highlight">FreshBite</span> Restaurant</h1>
+                </div>
+                <div class="navlist">
+                    <ul class="navlistitems">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Menu">Menu</a></li>
+                        <li><a href="#Galerie">Galerie</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="showcase" id="Home">
+            <div class="showcase-image">
+                <img src="images/restaurant.jpg" alt="Restaurant Image" />
+            </div>
+            <div class="showcase-content">
+                <h2>Welcome to FreshBite Restaurant</h2>
+                <p>Your destination for delicious meals and unforgettable dining experiences.</p>
+                <a href="#Menu" class="btn">Explore Menu</a>
+            </div>
+        </section>
+		<section id="Menu" class="menu-section">
+			<div class="menu-gallery">
+				<div class="pict1">
+					<img src="images/pic1.jpg" alt="first image" />
+					<h3>nom de plat 1</h3>
+					<p>24.00 DH</p>
+				</div>
+				<div class="pict2">
+					<img src="images/pic2.jpg" alt="second image" />
+					<h3>nom de plat 2</h3>
+					<p>30.00 DH</p>
+				</div>
+				<div class="pict3">
+					<img src="images/pic3.jpg" alt="third image" />
+					<h3>nom de plat 3</h3>
+					<p>28.00 DH</p>
+				</div>
+				<div class="pict4">
+					<img src="images/pic4.png" alt="fourth image" />
+					<h3>nom de plat 4</h3>
+					<p>35.00 DH</p>
+				</div>
+			</div>
+
+			<div class="menu-buttons">
+				<div>
+					<button>Petit déjeuner</button>
+				</div>
+				<div>
+					<button>Déjeuner</button>
+				</div>
+				<div>
+					<button>Boissons</button>
+				</div>
 			</div>
 		</section>
 
-		<section id="newsletter">
-			<div class="container">
-				<h1>Subscribe to our Newsletter</h1>
-				<form>
-					<input type="email" placeholder="Enter Email...">
-					<button type="submit" class="button_1">Subscribe</button>
-				</form>
-			</div>
-		</section>
+        <!-- <section id="Galerie" class="l-gallery">
+            <div class="h2-gallery"><h2>Galerie</h2></div>
+            <div class="gallery">
+                <div>
+                    <img src="images/gallery1.jpg" alt="Gallery Image 1" />
+                    <img src="images/gallery2.jpg" alt="Gallery Image 2" />
+                    <img src="images/gallery3.jpg" alt="Gallery Image 3" />
+                    <img src="images/gallery4.jpg" alt="Gallery Image 4" />
+                </div>
+                <div>
+                    <img src="images/gallery5.jpg" alt="Gallery Image 5" />
+                    <img src="images/gallery6.jpg" alt="Gallery Image 6" />
+                    <img src="images/gallery7.jpg" alt="Gallery Image 7" />
+                    <img src="images/gallery8.jpg" alt="Gallery Image 8" />
+                </div>
+            </div>
+        </section> -->
 
-		<section id="boxes">
-			<div class="container">
-				<div class="box">
-					<img src="img/dish1.jpg" alt="Dish 1">
-					<h3>Delicious Appetizers</h3>
-					<p>Start your meal with our mouth-watering appetizers made from fresh ingredients.</p>
-				</div>
-				<div class="box">
-					<img src="img/dish2.jpg" alt="Dish 2">
-					<h3>Exquisite Main Courses</h3>
-					<p>Enjoy our diverse selection of main courses, crafted to satisfy every palate.</p>
-				</div>
-				<div class="box">
-					<img src="img/dish3.jpg" alt="Dish 3">
-					<h3>Decadent Desserts</h3>
-					<p>Indulge in our sweet treats that are the perfect ending to your meal.</p>
-				</div>
-			</div>
-		</section>
-	</body>
+        <section id="Galerie" class="l-gallery">
+        <div class="h2-gallery"><h2>Galerie</h2></div>
+        <div class="gallery">
+            <img src="images/gallery1.jpg" alt="Gallery Image 1" />
+            <img src="images/gallery2.jpg" alt="Gallery Image 2" />
+            <img src="images/gallery3.jpg" alt="Gallery Image 3" />
+            <img src="images/gallery4.jpg" alt="Gallery Image 4" />
+            <img src="images/gallery5.jpg" alt="Gallery Image 5" />
+            <img src="images/gallery6.jpg" alt="Gallery Image 6" />
+            <img src="images/gallery7.jpg" alt="Gallery Image 7" />
+            <img src="images/gallery8.jpg" alt="Gallery Image 8" />
+        </div>
+        </section>
+
+        <section id="Contact" class="l-contact">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div>
+                <h2>Our Location</h2>
+                <p>Casablanca</p>
+                <p>Phone: 06 12 34 56 78</p>
+                <p>Email: contact@freshbite.com</p>
+            </div>
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+        </section>
+    </main>
+
+    <footer class="l-footer">
+        <p>FreshBite Restaurant &copy; 2025</p>
+    <script src="script.js"></script> 
+    </footer>
+</body>
 </html>
-
