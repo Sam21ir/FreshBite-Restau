@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>FreshBite Restaurant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/menu.css">
 </head>
 
 <body>
@@ -27,45 +27,111 @@
     </header>
     <main>
 		<section id="Menu" class="menu-section">
-			<div class="menu-buttons">
-				<div>
-					<button>Petit déjeuner</button>
+			<div class="filter-buttons">
+				<button class="filter-btn" data-category="all">Tous</button>
+				<button class="filter-btn" data-category="petit-dejeuner">Petit déjeuner</button>
+				<button class="filter-btn" data-category="dejeuner">Déjeuner</button>
+				<button class="filter-btn" data-category="boissons">Boissons</button>
+			</div>
+			
+			<div class="menu-grid">
+
+				<div class="menu-item" data-category="petit-dejeuner">
+					<img src="../images/bf1.jpg" alt="Breakfast1">
+					<div class="menu-item-info">
+						<h3>Breakfast 1</h3>
+						<div class="price">25.00 DH</div>
+					</div>
 				</div>
-				<div>
-					<button>Déjeuner</button>
+				<div class="menu-item" data-category="petit-dejeuner">
+					<img src="../images/bf2.jpg" alt="Breakfast2">
+					<div class="menu-item-info">
+						<h3>Breakfast 2</h3>
+						<div class="price">30.00 DH</div>
+					</div>
 				</div>
-				<div>
-					<button>Boissons</button>
+				<div class="menu-item" data-category="petit-dejeuner">
+					<img src="../images/bf3.jpg" alt="Breakfast3">
+					<div class="menu-item-info">
+						<h3>Breakfast 3</h3>
+						<div class="price">28.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="petit-dejeuner">
+					<img src="../images/bf4.jpg" alt="Breakfast4">
+					<div class="menu-item-info">
+						<h3>Breakfast 4</h3>
+						<div class="price">25.00 DH</div>
+					</div>
+				</div>
+
+
+				<div class="menu-item" data-category="dejeuner">
+					<img src="../images/pic1.jpg" alt="Salade1">
+					<div class="menu-item-info">
+						<h3>Salade 1</h3>
+						<div class="price">24.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="dejeuner">
+					<img src="../images/pic2.jpg" alt="Salade2">
+					<div class="menu-item-info">
+						<h3>Salade 2</h3>
+						<div class="price">30.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="dejeuner">
+					<img src="../images/pic3.jpg" alt="Salade3">
+					<div class="menu-item-info">
+						<h3>Salade 3</h3>
+						<div class="price">28.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="dejeuner">
+					<img src="../images/pic4.jpg" alt="Salade4">
+					<div class="menu-item-info">
+						<h3>Salade 4</h3>
+						<div class="price">35.00 DH</div>
+					</div>
+				</div>	
+
+
+				<div class="menu-item" data-category="boissons">
+					<img src="../images/boiss1.jpg" alt="Citron">
+					<div class="menu-item-info">
+						<h3>Citron jus</h3>
+						<div class="price">15.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="boissons">
+					<img src="../images/boiss2.jpg" alt="pomegranate">
+					<div class="menu-item-info">
+						<h3>pomegranate jus</h3>
+						<div class="price">12.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="boissons">
+					<img src="../images/boiss3.jpg" alt="kiwi">
+					<div class="menu-item-info">
+						<h3>kiwi glacé</h3>
+						<div class="price">10.00 DH</div>
+					</div>
+				</div>
+				<div class="menu-item" data-category="boissons">
+					<img src="../images/boiss4.jpg" alt="frais">
+					<div class="menu-item-info">
+						<h3>Frais Jus</h3>
+						<div class="price">14.00 DH</div>
+					</div>
 				</div>
 			</div>
-			<div class="menu-gallery">
-				<div class="pict1">
-					<img src="../images/pic1.jpg" alt="first image" />
-					<h3>nom de plat 1</h3>
-					<p>24.00 DH</p>
-				</div>
-				<div class="pict2">
-					<img src="../images/pic2.jpg" alt="second image" />
-					<h3>nom de plat 2</h3>
-					<p>30.00 DH</p>
-				</div>
-				<div class="pict3">
-					<img src="../images/pic3.jpg" alt="third image" />
-					<h3>nom de plat 3</h3>
-					<p>28.00 DH</p>
-				</div>
-				<div class="pict4">
-					<img src="../images/pic4.jpg" alt="fourth image" />
-					<h3>nom de plat 4</h3>
-					<p>35.00 DH</p>
-				</div>
-			</div>
+
 		</section>
+    <script src="../script.js"></script>
     </main>
 
     <footer class="l-footer">
         <p>FreshBite Restaurant &copy; 2025</p>
     </footer>
-    <script src="../script.js"></script>
 </body>
 </html>
