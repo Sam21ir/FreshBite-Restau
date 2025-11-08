@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    .l-gallery {
+    .gallery-section {
         padding: 30px 40px;
         margin: 85px 15px 80px 15px;
         height: auto;
@@ -28,7 +28,7 @@
         text-align: center;
     }
 
-    .l-gallery {
+    .gallery-section {
         flex-direction: column;
         padding: 20px;
         margin: 150px 10px 40px 10px;

@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    .l-contact {
+    .contact-section {
         padding: 30px 40px;
         margin: 85px 15px 80px 15px;
         gap: 30px;
@@ -27,7 +27,7 @@
         padding: 20px;
         margin: 85px 10px 60px 10px;
     }
-    .l-contact {
+    .contact-section {
         flex-direction: column;
         padding: 20px;
         margin: 150px 10px 40px 10px;

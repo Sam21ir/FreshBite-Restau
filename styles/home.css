@@ -50,7 +50,7 @@ html {
     color: #3CE772;
 }
 
-.showcase {
+.home-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,21 +63,21 @@ html {
     height: 600px;
     text-align: center;
 }
-.showcase-image img {
+.home-section-image img {
     width: 700px;
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.showcase-content h2 {
+.home-section-content h2 {
     color: #2C3E50;
     font-size: 2rem;
     margin-bottom: 15px;
 
 }
 
-.showcase-content p {
+.home-section-content p {
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
