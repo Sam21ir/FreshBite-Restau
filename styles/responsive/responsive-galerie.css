@@ -27,13 +27,13 @@
         gap: 10px;
         text-align: center;
     }
-    .menu-section {
-        padding: 20px;
-        margin: 85px 10px 60px 10px;
-    }
+
     .l-gallery {
+        flex-direction: column;
         padding: 20px;
-        margin: 85px 10px 60px 10px;
+        margin: 150px 10px 40px 10px;
+        height: auto;
+        gap: 20px;
     }
 
     .h2-gallery h2 {

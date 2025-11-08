@@ -40,6 +40,13 @@
         padding: 10px 25px;
         font-size: 14px;
     }
+    .menu-section {
+        flex-direction: column;
+        padding: 20px;
+        margin: 150px 10px 40px 10px;
+        height: auto;
+        gap: 20px;  
+    }
 
     .menu-grid {
         display: flex;

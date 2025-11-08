@@ -31,7 +31,7 @@
     .showcase {
         flex-direction: column;
         padding: 20px;
-        margin: 85px 10px 40px 10px;
+        margin: 150px 10px 40px 10px;
         height: auto;
         gap: 20px;
     }
