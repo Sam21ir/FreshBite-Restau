@@ -31,7 +31,7 @@
     .gallery-section {
         flex-direction: column;
         padding: 20px;
-        margin: 150px 10px 40px 10px;
+        margin: 110px 10px 40px 10px;
         height: auto;
         gap: 20px;
     }

@@ -30,10 +30,11 @@
 
     .home-section {
         flex-direction: column;
-        padding: 20px;
-        margin: 150px 10px 40px 10px;
-        height: auto;
+        padding: 20px 20px 850px 20px;
+        margin: 110px 10px 40px 10px;
         gap: 20px;
+        /* background-color: aqua; */
+
     }
 
     .home-section-image img {
